@@ -1,0 +1,160 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: #242222; /* Just to visualize the extent */
+  z-index: -1;
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  background-color: #5cabff;
+  width: 50%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 6px;
+  height: auto;
+  overflow: scroll;
+}
+
+.CreditCard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: #5cabff;
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 6px;
+  height: auto;
+}
+
+.input-form {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin: 15px;
+  margin-top: 0px;
+}
+
+.input-form:hover {
+  background-color: #1888ff;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.2s ease-out;
+}
+.error {
+  color: brown;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.shop {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: #5cabff;
+  height: 600px;
+  overflow: scroll;
+  width: 300px;
+}
+
+.shop-item {
+  border: 1px solid white;
+  width: 300px;
+  padding: 15px;
+}
+
+.shop-hadding {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.shop-total {
+  font-size: 1.5rem;
+  padding: 15px;
+  text-align: center;
+}
+
+.dont-show-payment {
+  display: none;
+}
+
+.no-payment {
+  padding-top: 80px;
+  color: white;
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 960px) {
+  .form-container {
+    display: flex;
+    position: absolute;
+    align-content: center;
+    flex-direction: column;
+    top: 85px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: #242222; /* Just to visualize the extent */
+    z-index: -1;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .form {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    background-color: #5cabff;
+    width: 80%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: auto;
+  }
+
+  .shop {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #5cabff;
+    height: 600px;
+    overflow: scroll;
+    width: 80%;
+  }
+
+  .shop-item {
+    border: 1px solid white;
+    width: auto;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: black;
+  }
+}

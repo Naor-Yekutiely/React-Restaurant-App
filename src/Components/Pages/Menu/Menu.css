@@ -1,0 +1,145 @@
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  background-color: #242222;
+  padding-bottom: 60px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-text {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding: 25px;
+  padding-top: 100px;
+  display: inline;
+  justify-self: center;
+}
+
+.menu-text-dessert {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding: 25px;
+  padding-top: 0px;
+  display: inline;
+  justify-self: center;
+}
+.option {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.more-options {
+  display: flex;
+  justify-content: center;
+}
+.no-option {
+  display: none;
+}
+
+.member-div {
+  font-size: 1.4rem;
+  margin-right: 40%;
+  z-index: 1;
+  display: fixed;
+}
+
+.add-meal-container {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  background-color: #1888ff;
+  width: 50%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 6px;
+  height: auto;
+  overflow: scroll;
+  padding-top: 15px;
+}
+
+.input-meal-form {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin: 15px;
+  margin-top: 0px;
+}
+
+.input-meal-form:hover {
+  background-color: #5cabff;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.2s ease-out;
+}
+
+.form-meal-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  border: 2px solid white;
+}
+
+.Delete-dish {
+  color: white;
+  font-size: 1.4rem;
+  width: 28px;
+  height: 28px;
+  padding-left: 5px;
+  background-color: #1888ff;
+  border-radius: 3px;
+}
+.Delete-dish:hover {
+  color: #1888ff;
+  font-size: 1.4rem;
+  color: black;
+}
+.no-delete {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*@media screen and (max-width: 1145px) {
+  .member-div {
+    font-size: 1.2rem;
+    margin-right: 60%;
+    margin-top: 80px;
+    padding-left: 15px;
+  }
+
+  .menu-text {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding: 25px;
+    padding-top: 0px;
+    display: inline;
+    justify-self: center;
+  }
+}*/

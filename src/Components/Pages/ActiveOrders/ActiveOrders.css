@@ -1,0 +1,109 @@
+.active-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: #242222; /* Just to visualize the extent */
+  z-index: -1;
+  height: 100%;
+}
+
+.secendary-container {
+  width: 85%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 25px;
+  height: 85%;
+  overflow: scroll;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  padding: 25px;
+  height: 85%;
+  justify-content: center;
+}
+
+.active-item {
+  justify-self: center;
+  display: flex;
+  align-content: center;
+  height: 350px;
+  width: 80%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+  margin: 15px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+
+.details-container {
+  list-style-type: none;
+  background: #5cabff;
+  width: 450px;
+  border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  height: 300px;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.text-details {
+  border: 1px solid white;
+  text-align: start;
+  width: 100%;
+  padding: 15px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.dishes {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.no-orders {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.order-status {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 0.7rem 1.3rem;
+  width: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.order-status:hover {
+  background-color: #5cabff;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.2s ease-out;
+}
+
+.show-nothing {
+  display: none;
+}
